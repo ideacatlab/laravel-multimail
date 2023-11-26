@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: cci-nqmey/laravel-multimail
-        id: 8f1e8f66-0bb2-4a1e-ba4d-03546f392ce3
+        id: "8f1e8f66-0bb2-4a1e-ba4d-03546f392ce3"
         uses: circleci/trigger_circleci_pipeline@v1.0
         env:
           CCI_TOKEN: ${{ secrets.CCI_TOKEN }}
